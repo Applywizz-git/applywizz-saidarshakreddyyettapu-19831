@@ -6,33 +6,38 @@
 
 @layer base {
   :root {
-    /* Liquid Morphism Reference Palette (Light) */
-    --background: 40 40% 96%;
-    --foreground: 220 60% 10%;
+    /* Cyber Infrastructure Palette (Light) */
+    --background: 210 20% 98%;
+    /* Cool White */
+    --foreground: 222 47% 11%;
+    /* Deep Slate */
 
-    --primary: 220 80% 15%;
-    --primary-foreground: 40 40% 96%;
+    --primary: 221 83% 53%;
+    /* Corporate Blue */
+    --primary-foreground: 210 20% 98%;
 
-    --accent: 260 80% 60%;
-    /* Vibrant Purple */
-    --accent-secondary: 190 90% 50%;
-    /* Vibrant Cyan */
+    --accent: 199 89% 48%;
+    /* Sky Blue (Data) */
+    --accent-secondary: 161 72% 44%;
+    /* Emerald (Link Status) */
 
-    --card: 0 0% 100% / 0.4;
-    --card-border: 0 0% 100% / 0.6;
+    --card: 210 20% 100% / 0.7;
+    --card-border: 210 20% 90% / 0.8;
 
-    --radius: 2rem;
+    --radius: 1.5rem;
   }
 
   .dark {
-    --background: 240 20% 4%;
-    --foreground: 40 40% 96%;
+    --background: 222 47% 2%;
+    /* Deepest Dark Blue */
+    --foreground: 210 40% 98%;
 
-    --primary: 40 40% 96%;
-    --primary-foreground: 240 20% 4%;
+    --primary: 199 89% 48%;
+    /* Sky Blue */
+    --primary-foreground: 222 47% 2%;
 
-    --card: 240 20% 10% / 0.4;
-    --card-border: 240 20% 20% / 0.5;
+    --card: 222 47% 6% / 0.6;
+    --card-border: 222 47% 15% / 0.5;
   }
 }
 
@@ -91,10 +96,10 @@
     top: -25%;
     left: -25%;
     background:
-      radial-gradient(circle at 20% 30%, hsla(190, 90%, 50%, 0.15) 0%, transparent 40%),
-      radial-gradient(circle at 80% 20%, hsla(260, 80%, 60%, 0.15) 0%, transparent 40%),
-      radial-gradient(circle at 40% 80%, hsla(220, 80%, 20%, 0.05) 0%, transparent 50%),
-      radial-gradient(circle at 70% 70%, hsla(330, 90%, 50%, 0.1) 0%, transparent 40%);
+      radial-gradient(circle at 20% 30%, hsla(199, 89%, 48%, 0.12) 0%, transparent 40%),
+      radial-gradient(circle at 80% 20%, hsla(221, 83%, 53%, 0.1) 0%, transparent 40%),
+      radial-gradient(circle at 40% 80%, hsla(161, 72%, 44%, 0.08) 0%, transparent 50%),
+      radial-gradient(circle at 70% 70%, hsla(200, 100%, 50%, 0.05) 0%, transparent 40%);
     filter: blur(100px);
     animation: mesh-float 20s ease-in-out infinite alternate;
   }

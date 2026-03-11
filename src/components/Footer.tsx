@@ -23,9 +23,8 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
   const socialLinks = [
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Mail, href: 'mailto:bhavanakshetty@gmail.com', label: 'Email' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/darshak-sai-8b864b1a0/', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:Yettapu.darshakreddy@gmail.com', label: 'Email' },
   ];
 
   return (
@@ -44,7 +43,7 @@ const Footer = () => {
             viewport={{ once: true }}
             className="text-5xl font-heading text-accent italic tracking-tighter"
           >
-            BK
+            SD
           </motion.div>
 
           {/* Social Links */}

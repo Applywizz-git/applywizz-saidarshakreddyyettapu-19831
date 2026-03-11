@@ -165,40 +165,40 @@ const Certifications = () => {
 
   const certifications = [
     {
-      title: 'Machine Learning Specialization',
+      title: 'Google IT Support Professional',
       issuer: 'Coursera',
-      description: 'Foundational concepts in supervised and unsupervised learning, including neural networks.',
-      icon: Binary,
-    },
-    {
-      title: 'Deep Learning Specialization',
-      issuer: 'Coursera',
-      description: 'Advanced deep learning techniques, CNNs, RNNs, and hyperparameter tuning.',
-      icon: Cpu,
-    },
-    {
-      title: 'Natural Language Processing',
-      issuer: 'Coursera',
-      description: 'Sequence models, sentiment analysis, and transformer architectures.',
-      icon: Globe,
-    },
-    {
-      title: 'Generative AI with LLMs',
-      issuer: 'DeepLearning.AI',
-      description: 'Scaling LLMs, fine-tuning techniques (LoRA, PEFT), and RAG workflows.',
-      icon: Zap,
-    },
-    {
-      title: 'MLOps for Production',
-      issuer: 'Coursera',
-      description: 'End-to-end ML lifecycle, model deployment, and monitoring.',
+      description: 'Foundational IT support tasks including troubleshooting, customer service, networking, operating systems, and security.',
       icon: Award,
     },
     {
-      title: 'Applied Data Science',
+      title: 'Google Data Center Networking',
       issuer: 'Coursera',
-      description: 'Data analysis, visualization, and machine learning using Python.',
+      description: 'Core concepts of data center networking, including topologies, protocols, and hardware components.',
+      icon: Globe,
+    },
+    {
+      title: 'IBM IT Infrastructure & Ops',
+      issuer: 'Coursera',
+      description: 'Foundations of IT infrastructure, including hardware, software, and operations management.',
+      icon: Cpu,
+    },
+    {
+      title: 'Google Cloud Networking Basics',
+      issuer: 'Coursera',
+      description: 'Introduction to networking in Google Cloud Platform, including VPCs, Load Balancing, and DNS.',
+      icon: Zap,
+    },
+    {
+      title: 'Microsoft Azure Networking',
+      issuer: 'Coursera',
+      description: 'Foundational knowledge of Azure networking services and architecture.',
       icon: LineChart,
+    },
+    {
+      title: 'Linux Server Mgmt & Security',
+      issuer: 'Coursera',
+      description: 'Skills for managing and securing Linux servers in an enterprise environment.',
+      icon: Binary,
     },
   ];
 

@@ -231,7 +231,7 @@ const Header = () => {
           {/* Brand Logo */}
           <Link to="hero" smooth duration={800} className="cursor-pointer group flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-500">
-              <span className="text-primary-foreground font-serif font-bold text-2xl">B</span>
+              <span className="text-primary-foreground font-serif font-bold text-2xl">S</span>
             </div>
           </Link>
 
@@ -256,7 +256,7 @@ const Header = () => {
           <div className="flex items-center gap-6">
             {/* Resume Download */}
             <a
-              href="/RESUME_BHAVANA KRISHNAN_AIML (1).pdf"
+              href="/AWL-19831-06032026-0400-resume_sai-darshak-reddy-yettapu_ne.pdf"
               download
               className="px-6 py-2.5 rounded-full glass-premium flex items-center gap-2 hover:scale-105 transition-all duration-300 group shadow-glow-sm"
             >
@@ -327,7 +327,7 @@ const Header = () => {
                 transition={{ delay: navLinks.length * 0.1 }}
               >
                 <a
-                  href="/RESUME_BHAVANA KRISHNAN_AIML (1).pdf"
+                  href="/AWL-19831-06032026-0400-resume_sai-darshak-reddy-yettapu_ne.pdf"
                   download
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="flex items-center gap-4 text-3xl font-heading text-accent hover:text-primary transition-colors cursor-pointer"

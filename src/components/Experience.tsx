@@ -162,44 +162,35 @@ const Experience = () => {
 
   const experiences = [
     {
-      title: "AI/ML Engineer",
-      company: "ThinkBig Software Solutions",
-      period: "Aug 2022 - Aug 2023",
+      title: "Data Center Network Engineer",
+      company: "Meta / Facebook",
+      period: "Jun 2025 - Sep 2025",
       responsibilities: [
-        "Built and optimized supervised learning models using Scikit-learn, XGBoost, and LightGBM, raising prediction accuracy by 18% through structured feature engineering.",
-        "Designed transformer-driven NLP workflows with PyTorch and Hugging Face, increasing tagging precision by 22% across internal knowledge systems.",
-        "Deployed a scalable RAG pipeline leveraging LangChain and FAISS, improving chatbot response relevance by 30% in production.",
-        "Fine-tuned domain-specific LLMs using LoRA and PEFT, lowering inference latency by 25% while maintaining response consistency.",
-        "Implemented structured experiment tracking with MLflow, reducing deployment discrepancies by 35%."
+        "Installed rack-mounted network switches and patch panels using rack elevation diagrams and structured cabling practices.",
+        "Terminated and routed single-mode and multi-mode fiber links across high-density racks and validated signal integrity using OTDR and Fluke testing tools.",
+        "Executed switch hardware replacements including supervisor modules, DIMMs, and SSDs while performing hardware diagnostics.",
+        "Verified switch port mappings and uplink connectivity during network infrastructure deployment activities.",
+        "Conducted fiber continuity testing and link validation across newly deployed racks using OTDR and Fluke tools.",
+        "Validated switch-to-server connectivity by tracing structured cabling paths and confirming link status."
       ],
       technologies: [
-        "Python", "PyTorch", "Hugging Face", "LangChain", "MLflow", "Docker", "AWS"
+        "OTDR", "Fluke Testing", "Fiber Optics", "SMF/MMF", "Rack elevation", "Switch Hardware"
       ]
     },
     {
-      title: "AI/ML Engineer Intern",
-      company: "ThinkBig Software Solutions",
-      period: "Dec 2021 - Jul 2022",
+      title: "Data Center Network Engineer",
+      company: "AVV Technologies",
+      period: "May 2023 - May 2025",
       responsibilities: [
-        "Developed fraud detection models using Scikit-learn, improving anomaly identification accuracy by 20% after refining validation strategies.",
-        "Assisted in training transformer-based NLP models with PyTorch, raising text classification F1-score by 15% through improved tokenization.",
-        "Contributed to building a semantic search module using LangChain and FAISS, increasing retrieval efficiency by 35%."
+        "Installed rack-mounted servers and configured BIOS settings and firmware updates during infrastructure deployments.",
+        "Configured Windows Server and Ubuntu Linux environments during lab infrastructure setups.",
+        "Maintained hardware inventory records using DCIM tools and asset tracking systems for over 500 components.",
+        "Performed cable routing and rack cabling installations during data center expansion projects.",
+        "Diagnosed server hardware failures by performing system health checks and analyzing logs.",
+        "Verified server-to-switch connectivity by checking port assignments and cable paths."
       ],
       technologies: [
-        "Scikit-learn", "XGBoost", "PyTorch", "LangChain", "FAISS", "FastAPI"
-      ]
-    },
-    {
-      title: "Machine Learning Engineer Intern",
-      company: "Westernacher Consulting",
-      period: "Feb 2021 - Nov 2021",
-      responsibilities: [
-        "Assisted in building demand forecasting models using Scikit-learn and SQL, contributing to a 12% improvement in prediction accuracy.",
-        "Optimized data extraction queries using SQL and Pandas, contributing to a 25% reduction in dashboard refresh time.",
-        "Prepared structured training datasets using Pandas and NumPy, improving downstream model stability during experimentation."
-      ],
-      technologies: [
-        "Scikit-learn", "SQL", "Pandas", "NumPy", "FastAPI", "SAP Data"
+        "Windows Server", "Ubuntu Linux", "DCIM", "BIOS/Firmware", "Asset Management", "Server Hardware"
       ]
     }
   ];
@@ -286,11 +277,6 @@ const Experience = () => {
                   <div className="w-10 h-10 rounded-full bg-background border-4 border-primary/20 flex items-center justify-center z-10 group-hover:border-primary transition-colors shadow-glow">
                     <div className="w-4 h-4 rounded-full bg-primary group-hover:scale-150 transition-transform duration-500 shadow-glow" />
                   </div>
-                  {/* Date label for desktop */}
-                  {/* <div className={`hidden md:block absolute top-1/2 -translate-y-1/2 whitespace-nowrap px-6 py-2 rounded-2xl glass border border-primary/10 font-heading text-sm text-foreground shadow-sm ${index % 2 === 0 ? "left-full translate-x-12" : "right-full -translate-x-12"
-                    }`}>
-                    {exp.period}
-                  </div> */}
                 </div>
 
                 {/* Empty Side Placeholder for desktop */}

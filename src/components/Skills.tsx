@@ -5,28 +5,28 @@ const Skills = () => {
   const [hoveredSkill, setHoveredSkill] = useState<string | null>(null);
 
   const topSkills = [
-    { name: 'Generative AI & LLMs', level: 95, color: 'hsl(var(--accent))' },
-    { name: 'Machine Learning', level: 92, color: 'hsl(var(--accent-secondary))' },
-    { name: 'Deep Learning & NLP', level: 90, color: 'hsl(var(--accent))' },
-    { name: 'MLOps & Deployment', level: 88, color: 'hsl(var(--accent-secondary))' },
+    { name: 'Data Center Infrastructure', level: 95, color: 'hsl(var(--accent))' },
+    { name: 'Fiber Optic Cabling', level: 92, color: 'hsl(var(--accent-secondary))' },
+    { name: 'Fiber Testing & Validation', level: 90, color: 'hsl(var(--accent))' },
+    { name: 'Network Hardware', level: 88, color: 'hsl(var(--accent-secondary))' },
   ];
 
   const skillCategories = [
     {
-      title: 'Machine Learning',
-      skills: ['Scikit-learn', 'XGBoost', 'LightGBM', 'Bayesian Optimization', 'Feature Engineering', 'Time Series'],
+      title: 'Infrastructure Ops',
+      skills: ['Rack & Stack', 'Structured Cabling', 'Cable Routing', 'Patch Panels', 'Rack Elevation'],
     },
     {
-      title: 'Deep Learning & GenAI',
-      skills: ['PyTorch', 'TensorFlow', 'Transformers', 'LoRA/PEFT', 'RAG', 'LangChain', 'FAISS'],
+      title: 'Fiber Engineering',
+      skills: ['SMF/MMF', 'OTDR Testing', 'Fluke Testing', 'Fiber Termination', 'Link Validation'],
     },
     {
-      title: 'Data & Infrastructure',
-      skills: ['Python', 'SQL', 'Apache Spark', 'Pandas', 'Docker', 'Kubernetes', 'AWS/Azure ML'],
+      title: 'Net Hardware',
+      skills: ['Switch Installation', 'Supervisor Replacement', 'Diagnostics', 'Port Mapping'],
     },
     {
-      title: 'MLOps & CI/CD',
-      skills: ['MLflow', 'GitHub Actions', 'Jenkins', 'FastAPI', 'SHAP/LIME', 'Responsible AI'],
+      title: 'Systems & Tools',
+      skills: ['Ubuntu Linux', 'Windows Server', 'DCIM', 'BIOS Config', 'Firmware Updates'],
     },
   ];
 

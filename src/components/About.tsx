@@ -4,15 +4,15 @@ import { Layers, BarChart2, Users, ClipboardCheck } from 'lucide-react';
 const About = () => {
   const stats = [
     { value: '2+', label: 'Years Experience' },
-    { value: '3+', label: 'Projects Completed' },
-    { value: '99%', label: 'Model Accuracy' },
+    { value: '500+', label: 'Assets Managed' },
+    { value: '100%', label: 'Rack Efficiency' },
   ];
 
   const highlights = [
-    { icon: Layers, title: 'Deep Learning', description: 'Expertise in PyTorch, TensorFlow, and neural architecture design.' },
-    { icon: BarChart2, title: 'Generative AI', description: 'Proficient in LLM fine-tuning, RAG implementation, and LangChain.' },
-    { icon: Users, title: 'MLOps', description: 'End-to-end ML lifecycle management with MLflow and Docker.' },
-    { icon: ClipboardCheck, title: 'Responsible AI', description: 'Model explainability using SHAP and LIME for transparent decisions.' },
+    { icon: Layers, title: 'Infrastructure', description: 'Expertise in rack & stack operations and high-density deployments.' },
+    { icon: BarChart2, title: 'Fiber Optics', description: 'Proficient in terminating and validating SMF and MMF links.' },
+    { icon: Users, title: 'Server Provisioning', description: 'Skilled in configuring Windows Server and Ubuntu Linux environments.' },
+    { icon: ClipboardCheck, title: 'Network Validation', description: 'OTDR and Fluke-based cable testing for connectivity validation.' },
   ];
 
   return (
@@ -66,12 +66,12 @@ const About = () => {
             className="space-y-10"
           >
             <h3 className="text-4xl md:text-5xl font-heading text-foreground leading-tight tracking-tight">
-              Solving Complex Problems with <br />
-              <span className="text-accent font-serif italic">Intelligent Architecture.</span>
+              Optimizing Data Center Infrastructure with <br />
+              <span className="text-accent font-serif italic">Precision Engineering.</span>
             </h3>
             <p className="text-2xl leading-relaxed text-muted-foreground font-light">
-              AI/ML Engineer with 2+ years of experience developing and deploying production-grade
-              <span className="text-foreground font-medium"> machine learning and Generative AI</span> systems.
+              Data Center Network Engineer with 2+ years of experience supporting
+              <span className="text-foreground font-medium"> large-scale deployments, structured cabling, and network hardware diagnostics.</span>
             </p>
           </motion.div>
 

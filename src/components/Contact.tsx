@@ -27,9 +27,9 @@ const Contact = () => {
   const [isSending, setIsSending] = useState(false);
 
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: 'bhavanakshetty@gmail.com', href: 'mailto:bhavanakshetty@gmail.com' },
-    { icon: Phone, label: 'Phone', value: '+1(806) 751-1583', href: 'tel:+18067511583' },
-    { icon: MapPin, label: 'Location', value: 'Lewisville, TX (Relocation Open)', href: null },
+    { icon: Mail, label: 'Email', value: 'Yettapu.darshakreddy@gmail.com', href: 'mailto:Yettapu.darshakreddy@gmail.com' },
+    { icon: Phone, label: 'Phone', value: '+1 (346) 436-0414', href: 'tel:+13464360414' },
+    { icon: MapPin, label: 'Location', value: 'Houston, TX', href: null },
   ];
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -41,7 +41,7 @@ const Contact = () => {
         particleCount: 150,
         spread: 100,
         origin: { y: 0.6 },
-        colors: ['#001F3F', '#F5F5DC', '#3D2B1F'],
+        colors: ['#0EA5E9', '#38BDF8', '#7DD3FC'],
       });
       toast({
         title: "Message Transmitted 🎉",
@@ -101,13 +101,13 @@ const Contact = () => {
                 <span className="text-accent font-serif italic">extraordinary.</span>
               </h3>
               <p className="text-muted-foreground font-light mb-10 italic serif">
-                "The best way to predict the future is to invent it."
+                "Infrastructure is the foundation of innovation."
               </p>
               <div className="flex justify-center gap-8">
-                {[Linkedin, Github, Mail].map((Icon, i) => (
+                {[Linkedin, Mail].map((Icon, i) => (
                   <motion.a
                     key={i}
-                    href="#"
+                    href={Icon === Linkedin ? "https://www.linkedin.com/in/darshak-sai-8b864b1a0/" : "mailto:Yettapu.darshakreddy@gmail.com"}
                     whileHover={{ y: -5, scale: 1.2 }}
                     className="w-14 h-14 rounded-full border border-accent/20 flex items-center justify-center text-accent hover:bg-accent hover:text-white transition-all shadow-xl"
                   >

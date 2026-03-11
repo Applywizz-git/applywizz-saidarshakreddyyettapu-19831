@@ -9,25 +9,18 @@ import 'swiper/css/navigation';
 const Projects = () => {
   const projects = [
     {
-      title: 'Enterprise-Grade Generative AI Chatbot',
-      subtitle: 'RAG & Fine-Tuning',
-      image: '/AI_Chatbot_RAG & Fine-Tuning.png',
-      description: 'Engineered a modular RAG pipeline with embedding-based semantic retrieval, improving accuracy by 28%.',
-      technologies: ['Python', 'LangChain', 'OpenAI', 'FAISS', 'Docker', 'AWS'],
+      title: 'Virtualized Data Center Infrastructure Lab',
+      subtitle: 'Virtualization & Provisioning',
+      image: '/project_v_dc.png',
+      description: 'Designed a virtualized DC environment using VMware and VirtualBox, deploying Windows Server and Ubuntu VMs with structured lab topology.',
+      technologies: ['VMware', 'VirtualBox', 'Ubuntu', 'Windows Server', 'BIOS'],
     },
     {
-      title: 'Stock Market Forecasting',
-      subtitle: 'ML & Time Series',
-      image: '/Stock_Market.png',
-      description: 'Built sequence-based models achieving 72% directional accuracy using financial time-series modeling.',
-      technologies: ['Python', 'XGBoost', 'TensorFlow', 'Optuna', 'SHAP'],
-    },
-    {
-      title: 'AI Personal Finance Advisor',
-      subtitle: 'Agentic Workflows',
-      image: '/AI-Powered.png',
-      description: 'Integrated agentic financial guidance using OpenAI and agentic retrieval-augmented generation.',
-      technologies: ['FastAPI', 'MLflow', 'Scikit-learn', 'React'],
+      title: 'Data Center Cabling & Validation Lab',
+      subtitle: 'Structured Cabling',
+      image: '/project_cabling.png',
+      description: 'Built a simulated rack-level network environment with patch panels and fiber optics to replicate production data center deployments.',
+      technologies: ['Fiber Optic', 'OTDR', 'Fluke Testing', 'Patch Panels', 'Rack Elevation'],
     },
   ];
 

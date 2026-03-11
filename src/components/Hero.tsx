@@ -19,17 +19,17 @@ const Hero = () => {
               transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
               className="lg:col-span-8"
             >
-              <h1 className="text-7xl md:text-[11rem] font-heading font-medium tracking-tighter leading-none text-foreground mb-8">
-                BHAVANA <br /> KRISHNAN
+              <h1 className="text-7xl md:text-[8rem] font-heading font-medium tracking-tighter leading-none text-foreground mb-8">
+                SAI DARSHAK <br /> REDDY YETTAPU
               </h1>
               <div className="flex items-center gap-6">
-                <span className="text-2xl md:text-3xl font-heading text-accent italic">AI/ML Engineer.</span>
+                <span className="text-2xl md:text-3xl font-heading text-accent italic">Data Center Network Engineer.</span>
                 <div className="h-px w-24 bg-accent/30" />
               </div>
               <div className="mt-8 max-w-2xl">
                 <p className="text-2xl md:text-3xl font-heading text-foreground/90 leading-snug">
-                  Building Intelligent Systems. Decoding Data. <br />
-                  Advancing Innovation.
+                  Optimizing Infrastructure. Tracing Fiber. <br />
+                  Ensuring High Availability.
                 </p>
               </div>
             </motion.div>
@@ -45,26 +45,17 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-accent/20 blur-[120px] rounded-full scale-110 group-hover:scale-125 transition-transform duration-1000" />
                 <div className="relative h-full w-full rounded-[4rem] overflow-hidden glass-premium p-4">
                   <img
-                    src="/image1.jpg"
-                    alt="Bhavana Krishnan"
+                    src="/sai_profile.png"
+                    alt="Sai Darshak Reddy Yettapu"
                     className="w-full h-full object-cover rounded-[3rem] grayscale hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
                   />
-                  {/* Floating Badges */}
-                  {/* <motion.div
-                    animate={{ y: [0, -10, 0] }}
-                    transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                    className="absolute top-10 right-10 glass-premium px-6 py-3 rounded-2xl flex items-center gap-2 border-accent/20"
-                  >
-                    <Sparkles className="w-4 h-4 text-accent" />
-                    <span className="text-[10px] font-bold uppercase tracking-widest text-accent">Innovator</span>
-                  </motion.div> */}
                 </div>
               </div>
             </motion.div>
           </div>
 
           <div className="grid lg:grid-cols-12 gap-8 items-stretch">
-            {/* Left Card: Pioneering AI */}
+            {/* Left Card: Pioneering Network Infrastructure */}
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
@@ -74,21 +65,21 @@ const Hero = () => {
               <div className="glass-premium rounded-[3rem] overflow-hidden p-8 group h-full flex flex-col">
                 <div className="relative h-64 rounded-[2.5rem] overflow-hidden mb-8">
                   <img
-                    src="/ai-mesh.png"
-                    alt="AI Mesh"
+                    src="/project_cabling.png"
+                    alt="Network Infrastructure"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
                   <div className="absolute top-6 left-6 flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-1.5 rounded-full border border-white/10">
                     <Terminal className="w-3.5 h-3.5 text-white" />
-                    <span className="text-[9px] font-bold text-white uppercase tracking-widest">AI Mesh</span>
+                    <span className="text-[9px] font-bold text-white uppercase tracking-widest">Network Ops</span>
                   </div>
                 </div>
                 <h3 className="text-3xl font-heading mb-4 leading-tight uppercase tracking-tight text-foreground">
-                  Pioneering <span className="text-accent italic">AI Innovation.</span>
+                  Scaling <span className="text-accent italic">Data Centers.</span>
                 </h3>
                 <p className="text-muted-foreground mb-8 leading-relaxed font-light flex-grow">
-                  Specializing in Deep Learning, Computer Vision, & Predictive Analytics to solve complex global challenges.
+                  Specializing in Rack & Stack, Structured Cabling, and Network Validation to ensure stable infrastructure operations.
                 </p>
                 <Link to="projects" smooth duration={800}>
                   <Button className="w-full bg-accent text-white h-16 rounded-2xl hover:shadow-glow transition-all font-bold uppercase tracking-[0.2em] text-[10px]">
@@ -111,11 +102,11 @@ const Hero = () => {
                 </h3>
                 <ul className="space-y-10">
                   {[
-                    { icon: Brain, label: 'Machine Learning', desc: 'Predictive Modeling' },
-                    { icon: Cpu, label: 'Neural Networks', desc: 'Deep Architecture' },
-                    { icon: MessageSquare, label: 'NLP', desc: 'LLM & Transformers' },
-                    { icon: Database, label: 'Big Data', desc: 'Scalable Systems' },
-                    { icon: Terminal, label: 'MLOps', desc: 'Production Deployment' }
+                    { icon: Cpu, label: 'Rack Operations', desc: 'Rack & Stack Deployments' },
+                    { icon: Database, label: 'Fiber Optics', desc: 'SMF/MMF Termination' },
+                    { icon: Terminal, label: 'Fiber Testing', desc: 'OTDR & Fluke Validation' },
+                    { icon: Brain, label: 'Net Hardware', desc: 'Switches & Diagnostics' },
+                    { icon: MessageSquare, label: 'Server Provisioning', desc: 'Ubuntu & Windows Server' }
                   ].map((skill, i) => (
                     <li key={i} className="flex items-center gap-6 group">
                       <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center group-hover:bg-accent group-hover:text-white transition-all duration-500">
@@ -140,15 +131,15 @@ const Hero = () => {
             >
               <div className="relative blob-float">
                 <img
-                  src="/8k_image_premiu_remove_bg.png"
-                  alt="Liquid Blob"
-                  className="w-80 h-80 object-contain drop-shadow-[0_0_120px_rgba(var(--accent-rgb),0.4)]"
+                  src="/sai_profile.png"
+                  alt="Sai Portrait"
+                  className="w-80 h-80 object-cover rounded-full drop-shadow-[0_0_120px_rgba(var(--accent-rgb),0.4)] border-4 border-accent/20"
                 />
-                <div className="absolute inset-0 bg-accent/5 blur-3xl animate-pulse" />
+                <div className="absolute inset-0 bg-accent/5 blur-3xl animate-pulse rounded-full" />
               </div>
               <div className="mt-12 text-center">
                 <p className="text-serif italic text-2xl text-foreground font-light tracking-tight">
-                  Seamless <span className="text-accent underline decoration-accent/20 underline-offset-8">Intelligence.</span>
+                  Reliable <span className="text-accent underline decoration-accent/20 underline-offset-8">Connectivity.</span>
                 </p>
               </div>
             </motion.div>

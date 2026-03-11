@@ -112,20 +112,12 @@ const Education = () => {
 
   const education = [
     {
-      degree: 'M.S. in Computer Science',
-      institution: 'Texas Tech University',
-      location: 'Lubbock, TX',
-      period: '2023 - 2025',
+      degree: 'Masters in Software Engineering',
+      institution: 'University of Houston Clear Lake',
+      location: 'Houston, TX',
+      period: 'May 2023',
       icon: GraduationCap,
       color: 'hsl(var(--primary))',
-    },
-    {
-      degree: 'B.E. in Computer Science & Engineering',
-      institution: 'New Horizon College of Engineering',
-      location: 'Bangalore, India',
-      period: '2018 - 2022',
-      icon: School,
-      color: 'hsl(var(--accent))',
     },
   ];
 
